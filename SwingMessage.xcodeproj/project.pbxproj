@@ -22,6 +22,7 @@
 		167DF93318C77890001C036D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167DF91718C77890001C036D /* CoreData.framework */; };
 		167DF93B18C77890001C036D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 167DF93918C77890001C036D /* InfoPlist.strings */; };
 		167DF93D18C77890001C036D /* SwingMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167DF93C18C77890001C036D /* SwingMessageTests.m */; };
+		167DF94818C778C7001C036D /* Sqitle3.m in Sources */ = {isa = PBXBuildFile; fileRef = 167DF94718C778C7001C036D /* Sqitle3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		167DF93818C77890001C036D /* SwingMessageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwingMessageTests-Info.plist"; sourceTree = "<group>"; };
 		167DF93A18C77890001C036D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		167DF93C18C77890001C036D /* SwingMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwingMessageTests.m; sourceTree = "<group>"; };
+		167DF94618C778C7001C036D /* Sqitle3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqitle3.h; sourceTree = "<group>"; };
+		167DF94718C778C7001C036D /* Sqitle3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqitle3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		167DF90518C77890001C036D = {
 			isa = PBXGroup;
 			children = (
+				167DF94618C778C7001C036D /* Sqitle3.h */,
+				167DF94718C778C7001C036D /* Sqitle3.m */,
 				167DF91918C77890001C036D /* SwingMessage */,
 				167DF93618C77890001C036D /* SwingMessageTests */,
 				167DF91018C77890001C036D /* Frameworks */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167DF92718C77890001C036D /* SwingMessage.xcdatamodeld in Sources */,
+				167DF94818C778C7001C036D /* Sqitle3.m in Sources */,
 				167DF92018C77890001C036D /* main.m in Sources */,
 				167DF92418C77890001C036D /* SwingMessageAppDelegate.m in Sources */,
 			);
